@@ -412,7 +412,7 @@ button:focus, input:focus {
 }
 
 /* About */
-.about-sec.navbar a {
+.about-sec.navbar nav a {
     color: #1f2833;
 }
 
@@ -682,6 +682,19 @@ button:focus, input:focus {
 
     .about img {
         width: 100%;
+    }
+
+    .content p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .form-control {
+        width: 340px;
+    }
+
+    .left, .right {
+        display: none;
     }
 
 }
